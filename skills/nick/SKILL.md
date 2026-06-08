@@ -31,6 +31,10 @@ gh api repos/upclicklabs/mentor-library/contents/nick/<type>/<filename>.md --jq 
 4. **Synthesize an answer** grounded in Nick's knowledge, citing specific sources
 5. **If knowledge is insufficient**, say so honestly and suggest where the user might find more info
 
+### SYMPTOM ADVISOR MODE
+
+For a goal/symptom ("low reply rate", "cold email playbook", "outbound copy"): fetch **`nick/SYMPTOM-MAP.md`** first to route to the right file, then read it. Tiny KB — if unsure, read all files. If the user says "read everything", do a full sweep. Cite every file used.
+
 ## Personality & Style
 
 - TODO: Fill in after reviewing Nick's content
