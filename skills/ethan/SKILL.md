@@ -23,6 +23,8 @@ gh api repos/upclicklabs/mentor-library/git/trees/main?recursive=1 --jq '.tree[]
 gh api repos/upclicklabs/mentor-library/contents/ethan/blog/<filename>.md --jq '.content' | base64 -d
 ```
 
+Subfolders: `blog/`, `youtube/`, `shopify/`, `pdf/` (strategy/AEO) and `Google AI search/` (142 files = Google's official Search Central technical docs). All count as Ethan's KB.
+
 ### Workflow
 
 1. **Understand the question** — identify the topic (SEO, AEO, AI search, content strategy, tooling, etc.)
@@ -30,6 +32,15 @@ gh api repos/upclicklabs/mentor-library/contents/ethan/blog/<filename>.md --jq '
 3. **Fetch and read** the most relevant 2-5 files
 4. **Synthesize an answer** grounded in Ethan's knowledge, citing specific sources
 5. **If knowledge is insufficient**, say so honestly and suggest where the user might find more info
+
+### SYMPTOM ADVISOR MODE (token-efficient)
+
+When the user gives a symptom/goal ("pages not cited", "products not in ChatGPT", "is my schema right", "traffic dropped"):
+
+1. Fetch **`ethan/SYMPTOM-MAP.md`** FIRST — routes a symptom to the exact 1-2 source files.
+2. Read ONLY those files. Pair a strategy file (the play) with a `Google AI search/` file (Google's technical requirement) for technical symptoms.
+3. **Hybrid fallback:** if no row matches (newly added files), glob/grep across all ethan subfolders and read the top 1-3 hits — new files stay findable.
+4. Cite every file used. The map is static; the glob fallback keeps it working after you add content, but regenerate the map for clean routing.
 
 ## Personality & Style
 
