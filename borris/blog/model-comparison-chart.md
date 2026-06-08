@@ -8,6 +8,19 @@ date_synced: "2026-02-20T00:00:00Z"
 
 # Model Comparison Chart
 
+> **CURRENT as of 2026-06-09** (the table further down is older). Latest GA models:
+>
+> | Model | API ID | $/MTok in·out | Context | Max out | Thinking | Use for |
+> |---|---|---|---|---|---|---|
+> | **Opus 4.8** | `claude-opus-4-8` | $5 / $25 | 1M | 128k | Adaptive (effort defaults `high`) | Most capable: complex reasoning, long-horizon agentic coding, coordinators, advisors. |
+> | **Sonnet 4.6** | `claude-sonnet-4-6` | $3 / $15 | 1M | 64k | Adaptive + extended | Best speed/intelligence balance. Default workhorse, executors. Set `effort: medium`. |
+> | **Haiku 4.5** | `claude-haiku-4-5` | $1 / $5 | 200k | 64k | Extended | Fastest/cheapest. High-volume, real-time, simple subagents. |
+>
+> Legacy/available: Opus 4.7 ($5/$25, 1M), Opus 4.6, Sonnet 4.5, Opus 4.5. Deprecated: Opus 4.1 (retire 2026-08-05), Sonnet 4 & Opus 4 (retire 2026-06-15).
+> Rule: coordinator/advisor = Opus, workers/executors = Sonnet or Haiku. See [FEATURE-MAP.md](../FEATURE-MAP.md).
+
+---
+
 Claude is a family of state-of-the-art large language models developed by Anthropic. All current Claude models support text and image input, text output, multilingual capabilities, and vision. Models are available via the Claude API, AWS Bedrock, and Google Vertex AI.
 
 ## Latest Models Comparison

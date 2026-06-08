@@ -8,6 +8,8 @@ date_synced: "2026-02-20T00:00:00Z"
 
 # Choosing the Right Model
 
+> **CURRENT default (2026-06-09):** Start with **Sonnet 4.6** (`claude-sonnet-4-6`, $3/$15, 1M context) at `effort: medium` for most builds. Step up to **Opus 4.8** (`claude-opus-4-8`, $5/$25) for complex reasoning, long-horizon agentic coding, coordinators, and advisors. Drop to **Haiku 4.5** (`claude-haiku-4-5`, $1/$5) for high-volume, real-time, or simple subagent work. Cheap trick: run Sonnet/Haiku as executor with an **Opus advisor tool** for near-Opus quality at lower cost. See [FEATURE-MAP.md](../FEATURE-MAP.md) and `anthropic-features/advisor-tool.md`.
+
 Selecting the optimal Claude model for your application involves balancing three key considerations: capabilities, speed, and cost.
 
 ## Establish Key Criteria
