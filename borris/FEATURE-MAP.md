@@ -50,6 +50,7 @@ Read the user's goal, match it to a row below, recommend the primitive, then cit
 | Guaranteed JSON / schema-conformant output | **Structured outputs** (GA) | `structured-outputs.md` |
 | Connect external tools (CRM, GitHub, Slack…) | **MCP** (connector, remote servers, tunnels) | `mcp.md` |
 | Cap total spend on a long agent run | **Task budgets** / compaction counter | `context-management.md` |
+| Make the agent verify its own work / stop babysitting | **Encode manual checks as a verify skill** + 2nd-agent code review | `youtube/manual-checks-so-claude-closes-its-own-feedback-loop.md` |
 | Process huge volume cheaply, async | **Message Batches API** (50% off) | `tools-overview.md` |
 | Analyze images / PDFs / charts | **Vision** + **PDF support** | (see `_reference/`) |
 
