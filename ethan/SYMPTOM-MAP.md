@@ -1,4 +1,4 @@
-<!-- Ethan's DECISION BRAIN for SYMPTOM ADVISOR MODE. Read this FIRST for "my X is broken / how do I get Y" questions. It routes a symptom to the 1-2 right source files so the whole KB never loads. Two source types: STRATEGY/AEO (ethan/blog, youtube, shopify, pdf) and TECHNICAL (ethan/Google AI search/ = Google's official Search Central docs). If a symptom isn't covered here, fall back to glob+grep over all of ethan/. Last built: 2026-06-09. -->
+<!-- Ethan's DECISION BRAIN for SYMPTOM ADVISOR MODE. Read this FIRST for "my X is broken / how do I get Y" questions. It routes a symptom to the 1-2 right source files so the whole KB never loads. Two source types: STRATEGY/AEO (ethan/blog, youtube, shopify, pdf) and TECHNICAL (ethan/Google AI search/ = Google's official Search Central docs). If a symptom isn't covered here, fall back to glob+grep over all of ethan/. Last built: 2026-06-22. -->
 
 # Ethan Symptom Map — Route a problem to the right resource
 
@@ -28,10 +28,15 @@ Match the symptom below → read ONLY the listed file(s) → answer + cite. Stra
 
 | Symptom / goal | Read |
 |---|---|
-| "Get my Shopify store cited / drive AI traffic" | `blog/shopify-aeo-for-ecommerce-how-to-drive-traffic-to-your-store-from-ai.md`, `shopify/ai-driven-seo-for-shopify-complete-guide-2026.md` |
-| "My products aren't showing in ChatGPT" | `shopify/your-shopify-store-is-on-chatgpt-but-products-arent-showing.md`, `shopify/shopify-optimizing-store-for-ai.md` |
-| "Agentic commerce / sell directly in AI channels" | `blog/shopify-agentic-commerce-plan-sell-directly-in-ai-channels.md`, `blog/shopify-ai-commerce-at-scale-the-agentic-commerce-platform.md` |
-| "Product data / feed for AI" | `shopify/shopify-hydrogen-ai-visibility-product-data-2026.md`, `shopify/shopify-catalog-default-listing.md`, **+ technical:** `Google AI search/Share Product Data with Google.md` |
+| "Get my Shopify store cited / drive AI traffic" | `blog/shopify-aeo-for-ecommerce-how-to-drive-traffic-to-your-store-from-ai.md`, `shopify/ai-driven-seo-for-shopify-complete-guide-2026.md`, `shopify/shopify-editions-spring26-ai-agentic.md` |
+| "My products aren't showing in ChatGPT / AI" | `shopify/your-shopify-store-is-on-chatgpt-but-products-arent-showing.md`, `shopify/shopify-catalog-optimizing-products-2026.md`, `shopify/shopify-catalog-requirements-2026.md` |
+| "Am I eligible for Shopify Catalog / why excluded" | `shopify/shopify-catalog-requirements-2026.md`, `shopify/shopify-catalog-overview-2026.md` |
+| "Optimize products for AI ranking (fields, KB app)" | `shopify/shopify-catalog-optimizing-products-2026.md`, `shopify/shopify-knowledge-base-app.md` |
+| "Catalog mapping / custom data sources / variant grouping" | `shopify/shopify-catalog-mapping-2026.md`, `shopify/shopify-catalog-overview-2026.md` |
+| "Agentic commerce / sell directly in AI channels" | `blog/shopify-agentic-commerce-plan-sell-directly-in-ai-channels.md`, `shopify/shopify-ai-channels-built-in-checkout-2026.md`, `shopify/shopify-editions-spring26-ai-agentic.md` |
+| "AI channel checkout / buyable in-agent / Copilot, Gemini, AI Mode" | `shopify/shopify-ai-channels-built-in-checkout-2026.md` |
+| "Build/manage on UCP / agent platform / Catalog-Cart-Checkout MCP / AI Toolkit" | `shopify/shopify-agents-ucp-platform-2026.md`, `shopify/shopify-editions-spring26-ai-agentic.md` |
+| "Product data / feed for AI" | `shopify/shopify-catalog-optimizing-products-2026.md`, `shopify/shopify-hydrogen-ai-visibility-product-data-2026.md`, **+ technical:** `Google AI search/Share Product Data with Google.md` |
 | "AI shoppers convert better (proof)" | `shopify/AI-Referred Shoppers Convert Better and Spend More.md` |
 
 ## TECHNICAL — route to `Google AI search/` (Google's official docs)
