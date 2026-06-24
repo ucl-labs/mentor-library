@@ -1,4 +1,5 @@
-<!-- Ethan's DECISION BRAIN for SYMPTOM ADVISOR MODE. Read this FIRST for "my X is broken / how do I get Y" questions. It routes a symptom to the 1-2 right source files so the whole KB never loads. Two source types: STRATEGY/AEO (ethan/blog, youtube, shopify, pdf) and TECHNICAL (ethan/Google AI search/ = Google's official Search Central docs). If a symptom isn't covered here, fall back to glob+grep over all of ethan/. Last built: 2026-06-22. -->
+<!-- Ethan's DECISION BRAIN for SYMPTOM ADVISOR MODE. Read this FIRST for "my X is broken / how do I get Y" questions. It routes a symptom to the 1-2 right source files so the whole KB never loads. Two source types: STRATEGY/AEO (ethan/blog, youtube, shopify, pdf) and TECHNICAL (ethan/Google AI search/ = Google's official Search Central docs). If a symptom isn't covered here, fall back to glob+grep over all of ethan/. Last built: 2026-06-24. -->
+<!-- 2026-06-24 (aeo-radar promote): added GSC Generative AI report, OpenAI Agentic Commerce Protocol, AEO leader frameworks. -->
 
 # Ethan Symptom Map — Route a problem to the right resource
 
@@ -21,6 +22,8 @@ Match the symptom below → read ONLY the listed file(s) → answer + cite. Stra
 | "Build topical authority" | `blog/topical-authority-white-paper.md`, `blog/internal-links-api-white-paper.md` |
 | "Is search dying / why still invest" | `blog/debunking-the-myth-that-search-is-dying.md`, `blog/the-future-of-search-llms-ai-search-and-optimization.md` |
 | "Stats to back an AEO pitch" | `blog/150-plus-ai-seo-statistics-for-2026.md` |
+| "Measure AI-search visibility / am I in AI Overviews / GSC AI report" | `Google AI search/Generative AI Performance Reports in Search Console.md` |
+| "What are AEO leaders saying now / latest frameworks" | `blog/aeo-leader-frameworks-2026-06.md` |
 | "Which AEO tools" | `blog/aeo-tools.md`, `pdf/aeo_playbook_webflow.md` |
 | "Reddit for AI visibility" | `youtube/reddit-masterclass.md`, `pdf/the-dos-and-donts-of-reddit-marketing-brand-survival-guide.md` |
 
@@ -35,6 +38,7 @@ Match the symptom below → read ONLY the listed file(s) → answer + cite. Stra
 | "Catalog mapping / custom data sources / variant grouping" | `shopify/shopify-catalog-mapping-2026.md`, `shopify/shopify-catalog-overview-2026.md` |
 | "Agentic commerce / sell directly in AI channels" | `blog/shopify-agentic-commerce-plan-sell-directly-in-ai-channels.md`, `shopify/shopify-ai-channels-built-in-checkout-2026.md`, `shopify/shopify-editions-spring26-ai-agentic.md` |
 | "AI channel checkout / buyable in-agent / Copilot, Gemini, AI Mode" | `shopify/shopify-ai-channels-built-in-checkout-2026.md` |
+| "Sell inside ChatGPT / Instant Checkout / Agentic Commerce Protocol / product feed for ChatGPT" | `blog/openai-agentic-commerce-protocol-instant-checkout-2026.md` |
 | "Build/manage on UCP / agent platform / Catalog-Cart-Checkout MCP / AI Toolkit" | `shopify/shopify-agents-ucp-platform-2026.md`, `shopify/shopify-editions-spring26-ai-agentic.md` |
 | "Product data / feed for AI" | `shopify/shopify-catalog-optimizing-products-2026.md`, `shopify/shopify-hydrogen-ai-visibility-product-data-2026.md`, **+ technical:** `Google AI search/Share Product Data with Google.md` |
 | "AI shoppers convert better (proof)" | `shopify/AI-Referred Shoppers Convert Better and Spend More.md` |

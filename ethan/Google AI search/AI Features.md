@@ -28,3 +28,10 @@ Site owners can use existing controls like `nosnippet`, `data-nosnippet`, `max-s
 ## Performance Measurement
 
 Traffic from AI features appears in Search Console's Performance report under the "Web" search type, alongside traditional search results data.
+
+## Update 2026-06-24 - dedicated Generative AI report in Search Console
+
+Beyond the "Web" search type, Search Console now has a **dedicated Generative AI performance report** (2026-06-03) showing impressions/pages in AI Overviews, AI Mode, and Discover. Site owners also get a **toggle to opt out of AI features** (Google states opting out is not used as a ranking signal for core web search).
+
+- Detail: `Generative AI Performance Reports in Search Console.md`
+- Source: https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports

@@ -36,3 +36,10 @@ Clicks and sessions won't match exactly due to different calculation methods. Co
 - Connecting Search Console to Analytics
 - WordPress Site Kit plugin
 - BigQuery exports for detailed analysis
+
+## Update 2026-06-24 - Generative AI performance reports (NEW)
+
+Search Console now has a dedicated **Generative AI performance report** (announced 2026-06-03, rolling out beyond the UK). It shows **impressions** and **pages** for your content inside **AI Overviews, AI Mode, and Discover AI features** - the first first-party measurement of AI-search visibility. There is also an opt-out toggle for AI features (opting out is not a ranking signal).
+
+- Detail + how to use it: see `Generative AI Performance Reports in Search Console.md`
+- Source: https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports

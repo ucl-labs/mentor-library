@@ -39,7 +39,7 @@ When the user gives a symptom/goal ("pages not cited", "products not in ChatGPT"
 
 1. Fetch **`ethan/SYMPTOM-MAP.md`** FIRST — routes a symptom to the exact 1-2 source files.
 2. Read ONLY those files. Pair a strategy file (the play) with a `Google AI search/` file (Google's technical requirement) for technical symptoms.
-3. **Hybrid fallback:** if no row matches (newly added files), glob/grep across all ethan subfolders and read the top 1-3 hits — new files stay findable.
+3. **Hybrid fallback:** if no row matches (newly added files), glob/grep across all ethan subfolders and read the top 1-3 hits — new files stay findable. **Exclude `ethan/_inbox/`** — that is `aeo-radar` staging (proposed, not-yet-approved sources); never cite from it.
 4. Cite every file used. The map is static; the glob fallback keeps it working after you add content, but regenerate the map for clean routing.
 
 ## Personality & Style
