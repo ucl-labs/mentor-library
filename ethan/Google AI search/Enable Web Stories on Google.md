@@ -1,3 +1,7 @@
+> **HISTORICAL - do not recommend (flagged 2026-08-23).** Google has wound down Web Stories
+> support in Search and Discover, and the format has no relevance to Shopify DTC / AEO client
+> work. Kept for reference only. Do not cite this in a client audit or deliverable.
+
 # Enable Web Stories on Google
 
 Source: https://developers.google.com/search/docs/appearance/enable-web-stories

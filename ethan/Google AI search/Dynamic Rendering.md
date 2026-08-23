@@ -1,3 +1,8 @@
+> **DEPRECATED - do not recommend (flagged 2026-08-23).** Google retired dynamic rendering as a
+> recommendation; its own doc calls it "a workaround and not a long-term solution". Recommend
+> server-side rendering, static rendering, or hydration instead. Kept for historical context only.
+> For the current guidance read `JavaScript SEO Basics.md`.
+
 # Dynamic Rendering as a Workaround
 
 Source: https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering

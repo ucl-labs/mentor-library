@@ -6,6 +6,9 @@ mentor: "Ethan"
 date_synced: "2026-02-14T00:00:00Z"
 ---
 
+> **HISTORICAL - naming debate, not strategy (flagged 2026-08-23).** Captures the early-2026 argument
+> over AEO vs GEO vs AI SEO. The industry now uses the terms interchangeably. Useful as background
+> on why UpClickLabs says "AEO"; do not treat it as a strategic source.
 # AEO vs. GEO vs. AI SEO
 
 ## Introduction

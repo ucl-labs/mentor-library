@@ -1,3 +1,7 @@
+> **SUPERSEDED on stats (flagged 2026-08-23).** Same four-pillar spine, older numbers. Use
+> `pdf/the-ai-discovery-playbook-webflow-hubspot.md` for the AEO Maturity Model, the 2,000-site
+> benchmark, and any figure you quote to a client. Keep this file for its long-form pillar detail.
+
 # Page 2
 
 The AEO playbook: How to optimize for AI-driven discovery Table of

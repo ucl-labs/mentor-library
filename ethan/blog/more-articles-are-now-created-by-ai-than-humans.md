@@ -6,6 +6,10 @@ mentor: "Ethan"
 date_synced: "2026-02-14T00:00:00Z"
 ---
 
+> **DATED - trend only, do not quote the numbers (flagged 2026-08-23).** Data ends May 2025 and only
+> tests GPT-4o output. The directional finding (AI articles are plentiful but rarely rank or get
+> cited) still holds; the percentages are not quotable in 2026 client work.
+> For current citation-behaviour stats use `blog/150-plus-ai-seo-statistics-for-2026.md`.
 # More Articles Are Now Created by AI Than Humans
 
 ## Key Takeaways

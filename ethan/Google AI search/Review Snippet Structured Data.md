@@ -1,3 +1,9 @@
+> **CAUTION - partial (flagged 2026-08-23).** This doc does not mention Google's self-serving review
+> restriction: Google ignores `review` / `aggregateRating` markup that a business writes about
+> **itself** on `LocalBusiness` and `Organization` entities, so those stars will never render.
+> Only mark up reviews of **products, services, and other reviewable entities**, sourced from real
+> customers. Validate any recommendation against the live Search Central page before shipping it.
+
 # Review Snippet (Review, AggregateRating) Structured Data
 
 Source: https://developers.google.com/search/docs/appearance/structured-data/review-snippet
