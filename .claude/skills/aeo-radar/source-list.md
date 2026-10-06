@@ -8,7 +8,7 @@ sources anytime - no rebuild needed. Two tiers, never mix them:
 - **DIRECTIONAL** = leaders + news + community. Insightful, but flagged as
   opinion/framework, never as platform fact.
 
-Last edited: 2026-06-24 (Kristine + Forge build).
+Last edited: 2026-10-07 (aeo-radar/Kristine - added Eli Schwartz, Marcel Santilli, Sydney Sloan, Chris Andrew, Connor Gillivan, Evan Bailyn, Stefan Katanic, Steve Toth, plus LinkedIn rows for Barry Schwartz and Rand Fishkin (previously X-only) to section 3, sourced from Webflow's "AEO Voices to Watch in 2026"; dupes already on LinkedIn - Alex Halliday, Aleyda Solis, Ethan Smith, Gaetano DiNardi, Jason Barnard, Kevin Indig, Lily Ray, Michael King - left out).
 
 ---
 
@@ -33,6 +33,10 @@ jackable_window_hours: 48        # directional items newer than this are flagged
 linkedin_writer_skill: "linkedin-growth-post"  # jackable items name the mode to hand off (namejack/newsjack/brandjack)
 
 # Apify auth (token NEVER stored in this repo - it gets pushed to GitHub)
+apify_access_method: "rest_api_only"             # HARD RULE: never call mcp__Apify__* MCP tools,
+                                                  # never check their auth status. REST/curl only -
+                                                  # see SKILL.md rule 0 + REFERENCE.md s.4. The MCP
+                                                  # connector's auth state is irrelevant to this skill.
 apify_token_env: "APIFY_API_TOKEN"               # var name
 apify_token_source: "~/ucl-brain/leadgen/.env"   # read it from here (gitignored)
 apify_plan: "STARTER"
@@ -54,7 +58,7 @@ apify_x_actor: "apidojo~tweet-scraper"                       # $0.0004/tweet, in
 Scan official GOSPEL every run. Rotate DIRECTIONAL leaders across the week so
 each leader is hit ~once/week, not 3x:
 
-- **Mon** - Shopify/Ecommerce leaders + Graphite/Profound
+- **Mon** - Product-search leaders + Graphite/Profound
 - **Wed** - General AEO leaders group A (Searchable, G2, Webflow, HubSpot)
 - **Fri** - General AEO leaders group B (originators: iPullRank, Kalicube, Cairrot, Amsive) + news/newsletters
 
@@ -111,7 +115,7 @@ Change-feeds first (built to announce deltas - cheapest to diff):
 
 ---
 
-## 2. DIRECTIONAL - Shopify / Ecommerce AEO leaders
+## 2. DIRECTIONAL - Product-search AEO leaders
 
 | Name | Company | LinkedIn | X | YouTube | Blog/Newsletter |
 |---|---|---|---|---|---|
@@ -123,7 +127,7 @@ Change-feeds first (built to announce deltas - cheapest to diff):
 
 ---
 
-## 3. DIRECTIONAL - General AEO leaders (NOT Shopify/ecom - keep separate)
+## 3. DIRECTIONAL - General AEO leaders (keep separate from section 2)
 
 Kristine's curated list (exact LinkedIn URLs):
 
@@ -131,6 +135,7 @@ Kristine's curated list (exact LinkedIn URLs):
 |---|---|---|
 | Chris Donnelly | Searchable | https://www.linkedin.com/in/donnellychris/ |
 | Emilia Moller | Searchable | https://www.linkedin.com/in/emilia-moller/ |
+| Metehan Yesilyurt | Peec AI | https://www.linkedin.com/in/metehanyesilyurt/ |  <!-- added 2026-09-08, Kristine. Peec AI research, same team as the Labrador teardown -->
 | Aja Frost | HubSpot | https://www.linkedin.com/in/ajafrost/ |
 | Ben Morriss | Profound | https://www.linkedin.com/in/ben-morriss-158420241/ |
 | Neil Patel | NP Digital | https://www.linkedin.com/in/neilkpatel/ |
@@ -144,6 +149,21 @@ Kristine's curated list (exact LinkedIn URLs):
 | Oana Manolache | Sequel | https://www.linkedin.com/in/oana-m-manolache/ |
 | Vivian Hoang | Webflow | https://www.linkedin.com/in/vivianhoang/ |
 | Dave Steer | Webflow | https://www.linkedin.com/in/davesteer/ |
+| Gaetano DiNardi | Marketing Advice (Substack) | https://www.linkedin.com/in/officialg/ | <!-- added 2026-09-29, Kristine -->
+| Marius Meiners | Peec AI (CEO/co-founder) | https://www.linkedin.com/in/mariusmeiners/ | <!-- added 2026-09-29, Kristine. Peec AI team, same company as Metehan Yesilyurt above -->
+| Daniel Drabo | Peec AI (CRO/co-founder) | https://de.linkedin.com/in/daniel-drabo | <!-- added 2026-09-29, Kristine. Peec AI team -->
+| Aman A. | Peec AI (GTM) | https://de.linkedin.com/in/aman-ahu | <!-- added 2026-09-29, Kristine. Peec AI team -->
+| Jake Ward | Content Growth / Byword (co-founder) | https://www.linkedin.com/in/jakezward/ | <!-- added 2026-09-29, Kristine. SEO/content, AI-search angle -->
+| Eli Schwartz | Author, "Product-Led SEO" | https://www.linkedin.com/in/schwartze/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026" -->
+| Marcel Santilli | GrowthX AI (CEO/co-founder) | https://www.linkedin.com/in/marcelsantilli/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026" -->
+| Sydney Sloan | G2 (CMO) | https://www.linkedin.com/in/sydsloan/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026". Second G2 voice alongside Tim Sanders/Alex David -->
+| Chris Andrew | Scrunch AI (CEO/co-founder) | https://www.linkedin.com/in/chriswandrew/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026". Scrunch acquired by Sitecore June 2026 -->
+| Connor Gillivan | TrioSEO (founder) | https://www.linkedin.com/in/connorgillivan/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026" -->
+| Evan Bailyn | First Page Sage (CEO) | https://www.linkedin.com/in/evanbailyn/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026" -->
+| Stefan Katanic | Veza Digital (CEO) | https://www.linkedin.com/in/stefan-katanic/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026" -->
+| Steve Toth | Notebook Agency / SEO Notebook (founder) | https://www.linkedin.com/in/stevetothjr/ | <!-- added 2026-10-07, from Webflow "AEO Voices to Watch in 2026" -->
+| Barry Schwartz | RustyBrick / Search Engine Roundtable | https://www.linkedin.com/in/rustybrick/ | <!-- added 2026-10-07, Kristine. Already tracked on X as @rustybrick -->
+| Rand Fishkin | SparkToro | https://www.linkedin.com/in/randfishkin/ | <!-- added 2026-10-07, Kristine. Already tracked on X as @randfish -->
 
 AEO framework originators (surfaced in the 2026 scan - directional):
 
@@ -161,9 +181,10 @@ AEO framework originators (surfaced in the 2026 scan - directional):
 
 ## 4. DIRECTIONAL - brand blogs / vendors
 
-- Graphite: https://graphite.io/five-percent  (Ethan Smith's "5%" content)
-- Graphite blog: https://graphite.io/blog
+- Graphite: https://graphite.io/five-percent  (Ethan Smith's research hub - VERIFIED. NOTE: graphite.io/blog is 404, do not use)
 - Profound: https://www.tryprofound.com/resources
+- Profound (blog): https://www.tryprofound.com/blog  (article-level; the /resources hub does not cover /blog URLs - added 2026-09-08, Kristine)
+- Peec AI: https://peec.ai/blog  (AI-search visibility research - added 2026-09-08, Kristine)
 - Webflow: https://webflow.com/blog
 - HubSpot: https://blog.hubspot.com (filter to AI search/AEO)
 - Clearscope: https://www.clearscope.io/blog
@@ -184,10 +205,12 @@ AEO framework originators (surfaced in the 2026 scan - directional):
 - Lily Ray
 - Profound research drops
 
-### YouTube channels (AEO / AI-search filtered ONLY - free RSS + transcript first)
-- HubSpot Marketing: https://www.youtube.com/channel/UCVeuau7DLrg7zlAjxxDbdww  (filter to AEO/AI-search videos)
-- Neil Patel: https://www.youtube.com/@neilpatel  (filter to AEO/AI-search videos)
-- # add leader channels here - the radar will only ingest videos whose title/desc match AEO/AI-search keywords
+### YouTube channels (AEO / AI-search filtered ONLY - free RSS, no Apify)
+Use the RSS feed by CHANNEL ID (handles don't resolve reliably): `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
+Filter titles to AEO/AI-search keywords; EXCLUDE "ads" (avoids "ChatGPT Ads" false positives).
+- HubSpot Marketing: channel_id `UCVeuau7DLrg7zlAjxxDbdww`  (VERIFIED working 2026-06-24)
+- Neil Patel: channel_id `UCl-Zrl0QhF66lu1aGXaTbfw`  (# TODO verify - RSS 500'd once; he's also covered via LinkedIn)
+- # add leader channel_ids here. To resolve a handle -> id: Firecrawl the /@handle/videos page, grab UC... 
 
 ### X / Twitter handles (live-verified 2026-06-24 via apidojo~tweet-scraper)
 DIRECTIONAL - AEO / AI search leaders (followers + recent activity confirmed):
